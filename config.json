@@ -1,0 +1,13 @@
+{
+  "self": {
+    "id":"a1af6110-ca09-11e5-b2fd-810b5222f647",
+    "role":"master",
+    "tftp":false
+  },
+  "members": [
+  ],
+  "master":{
+    "id": "a1af6110-ca09-11e5-b2fd-810b5222f647",
+    "ip": "localhost"
+    }
+}

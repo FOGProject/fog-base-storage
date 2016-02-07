@@ -1,0 +1,33 @@
+{
+  "name": "FOG-Core-Node",
+  "version": "0.0.0",
+  "author": "FOG Project",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FOGProject/fog-core-node.git"
+  },
+  "description": "A Free Open Source Ghost",
+  "keywords": [],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "socket.io-client": "^1.4.5",
+    "socket.io-stream": "^0.9.0",
+    "tftp": "^0.1.2"
+  },
+  "license": "GPL v3",
+  "addTo": [
+    {
+      "type": "settings",
+      "title": "Storage",
+      "url": "settings"
+    }
+  ],
+  "files": {
+    "assets": "assets",
+    "models": "models",
+    "views": "views",
+    "api": "api"
+  }
+}
